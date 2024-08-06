@@ -1,28 +1,28 @@
 # Windows RDP Installer
 
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/FighterTunnel/tunnel)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-green)](https://GitHub.com/FighterTunnel/tunnel/graphs/commit-activity)
-[![GitHub Forks](https://img.shields.io/github/forks/FighterTunnel/tunnel?&logo=github)](https://github.com/FighterTunnel/tunnel/fork)
-[![GitHub Stars](https://img.shields.io/github/stars/FighterTunnel/tunnel?&logo=github)](https://github.com/FighterTunnel/tunnel/stargazers)
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/nyeinkokoaung404/tunnel)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-green)](https://GitHub.com/nyeinkokoaung404/tunnel/graphs/commit-activity)
+[![GitHub Forks](https://img.shields.io/github/forks/nyeinkokoaung404/tunnel?&logo=github)](https://github.com/nyeinkokoaung404/tunnel/fork)
+[![GitHub Stars](https://img.shields.io/github/stars/nyeinkokoaung404/tunnel?&logo=github)](https://github.com/nyeinkokoaung404/tunnel/stargazers)
 
-## Deskripsi
-Repositori ini berisi skrip dan panduan untuk menginstal dan mengonfigurasi Remote Desktop Protocol (RDP) pada sistem operasi Windows. RDP memungkinkan pengguna untuk terhubung ke komputer Windows dari jarak jauh, memberikan akses penuh ke desktop, aplikasi, dan file.
+## Description
+This repository contains scripts and guides for installing and configuring Remote Desktop Protocol (RDP) on Windows operating systems. RDP allows users to connect to a Windows computer remotely, providing full access to the desktop, applications, and files.
 
 ![Screenshot](https://www.bleepstatic.com/content/hl-images/2024/05/14/Windows-Server.jpg)
 
-## Fitur
-- Instalasi mudah dan cepat untuk RDP pada Windows.
-- Konfigurasi pengaturan RDP sesuai kebutuhan pengguna.
-- Dukungan untuk berbagai versi Windows (Windows 10, Windows Server, dll.).
+## Feature
+- Easy and fast installation for RDP on Windows.
+- Configure RDP settings according to user needs.
+- Support for various versions of Windows (Windows 10, Windows Server, etc.).
 
 ## Prerequisites
-- Sistem operasi Windows yang kompatibel.
-- Koneksi internet untuk mengunduh pembaruan dan driver yang diperlukan.
-- Autosetup Interface IP RDP
+- Compatible Windows operating system.
+- Internet connection to download necessary updates and drivers.
+- Autosetup IP RDP Interface
 
-## Install Otomatis Dengan 1 Klik
+## Auto Install With 1 Click
 ```
-wget https://raw.githubusercontent.com/FighterTunnel/rdp/main/image/auto.sh && bash auto.sh
+wget https://raw.githubusercontent.com/nyeinkokoaung404/rdp/main/image/auto.sh && bash auto.sh
 ```
 ## Install Manual
 1. **Windows 10**
@@ -42,7 +42,7 @@ wget -O- --no-check-certificate http://rdp.yha.my.id/windows2019.gz | gunzip | d
 wget -O- --no-check-certificate http://rdp.yha.my.id/windows2022.gz | gunzip | dd of=/dev/vda
 ```
 
-## Ikuti Petunjuk di Layar
+## Follow the On-Screen Instructions
 <details>
 <summary><b>🔗 Remote Desktop Protocol Detail Login</b></summary>
 
@@ -54,23 +54,23 @@ wget -O- --no-check-certificate http://rdp.yha.my.id/windows2022.gz | gunzip | d
 </details>
 
 <details>
-<summary><b>🔗 Tutorial install di bawah ini</b></summary>
+<summary><b>🔗 Installation tutorial below</b></summary>
 <br>
     
-> Anda memerlukan akun cloud silahkan beli [disini](https://t.me/yha_bot)
-<h4> Install Otomatis 1 Klik: </h4>    
+> You need a cloud account please buy [here](https://t.me/nkka404)
+<h4> 1 Click Auto Install: </h4>    
 <p><a href="https://t.me/carainstallrdp"><img src="https://img.shields.io/badge/Tonton%20DI%20Telegram-blue?style=for-the-badge&logo=telegram" width="200""/></a></p>
 <h4> Install Manual: </h4>    
-<p><a href="https://t.me/carainstallrdp/4"><img src="https://img.shields.io/badge/Full%20Vidio%20-green?style=for-the-badge&logo=telegram" width="200""/></a></p>
+<p><a href="https://t.me/nkka_404"><img src="https://img.shields.io/badge/Full%20Vidio%20-green?style=for-the-badge&logo=telegram" width="200""/></a></p>
     
 </details>
 
-<h3 align="center">Sangat disarankan mengganti password!!!</h3>
+<h3 align="center">It is highly recommended to change your password!!!</h3>
 
-## Kontribusi
-Kami menyambut baik kontribusi dari komunitas! Silakan buka isu atau kirim pull request jika Anda memiliki saran atau perbaikan.
+## Contribution
+We welcome contributions from the community! Please open an issue or submit a pull request if you have suggestions or improvements.
 
 ## Lisensi
-Repositori ini dilisensikan di bawah [Raphielscape Public License](https://raw.githubusercontent.com/FighterTunnel/rdp/main/LICENCE) - Version 1.d, Agust 2024
+This repository is licensed under the [Raphielscape Public License](https://raw.githubusercontent.com/FighterTunnel/rdp/main/LICENCE) - Version 1.d, Agust 2024
 
-Anda dapat menyesuaikan bagian-bagian tertentu sesuai dengan kebutuhan spesifik proyek Anda
+You can customize certain parts according to your specific project needs.
