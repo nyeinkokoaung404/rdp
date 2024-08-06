@@ -71,6 +71,6 @@ wget -O- --no-check-certificate http://rdp.yha.my.id/windows2022.gz | gunzip | d
 We welcome contributions from the community! Please open an issue or submit a pull request if you have suggestions or improvements.
 
 ## Lisensi
-This repository is licensed under the [Raphielscape Public License](https://raw.githubusercontent.com/FighterTunnel/rdp/main/LICENCE) - Version 1.d, Agust 2024
+This repository is licensed under the [Raphielscape Public License](https://raw.githubusercontent.com/nyeinkokoaung404/rdp/main/LICENCE) - Version 1.d, Agust 2024
 
 You can customize certain parts according to your specific project needs.
