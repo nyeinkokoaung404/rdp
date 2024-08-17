@@ -5,19 +5,21 @@ echo ""
 echo ""
 echo "Please select the OS you want to install:"
 echo "	1.) Windows 10"
-echo "	2.) Windows 2016"
-echo "	3.) Windows 2019"
-echo "	4.) Windows 2022"
+echo "	2.) Windows 2012 R2"
+echo "	3.) Windows 2016"
+echo "	4.) Windows 2019"
+echo "	5.) Windows 2022"
 
 read -p "Choose [1]: " select
 
 ethernt="Ethernet Instance 0"
 
 case "$select" in
-	1|"") select="http://rdp.yha.my.id/windows10.gz";;
-	2) select="http://rdp.yha.my.id/windows2016.gz";;
-	3) select="http://rdp.yha.my.id/windows2019.gz";;
-	4) select="http://rdp.yha.my.id/windows2022.gz";;
+	1|"") select="https://image.yha.my.id/2:/windows10.gz";;
+	2) select="https://image.yha.my.id/2:/windows2012.gz";;
+	3) select="https://image.yha.my.id/2:/windows2016.gz";;
+	4) select="https://image.yha.my.id/2:/windows2019.gz";;
+	5) select="https://image.yha.my.id/2:/windows2022.gz";;
 	*) echo "wrong choice🥲"; exit;;
 esac
 
@@ -60,6 +62,5 @@ cd Start* || cd start*; \
 cp -f /tmp/net.bat net.bat
 
 echo 'Your server will turning off in 5 second'
-echo '♻️Script by 4-0-4♻️'
 sleep 5
 poweroff
